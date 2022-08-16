@@ -1,0 +1,5 @@
+# nvmの設定
+NVMRC_PATH=".nvmrc"
+if [[ -a "$NVMRC_FILE" ]]; then
+    nvm use
+fi
