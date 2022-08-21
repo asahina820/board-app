@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
 function Header() {
   return (
     <div>
-      <h1>掲示板</h1>
+      <h1 className="text-3xl font-bold underline">掲示板</h1>
       <span>スレッドを立てる</span>
     </div>
   );
