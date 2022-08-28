@@ -1,7 +1,7 @@
 import './index.css';
 import Thread from './Thread';
 
-function Contant() {
+function Content() {
   return (
     <div className='h-screen w-screen bg-neutral-300'>
         <div className='flex flex-col justify-center items-center'>
@@ -11,4 +11,4 @@ function Contant() {
   );
 }
 
-export default Contant;
+export default Content;
