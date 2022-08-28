@@ -1,4 +1,5 @@
 import './index.css';
+import ThreadList from './ThreadList';
 
 function Thread() {
   return (
@@ -9,12 +10,7 @@ function Thread() {
                     <th className='w-96 text-2xl'>新着スレッド</th>
                 </tr>
             </thead>
-            <tr className='bg-white'>
-                <td className='border text-xl'>ああああああああ</td>
-            </tr>
-            <tr className='bg-white'>
-                <td className='border text-xl'>ああああああああ</td>
-            </tr>
+            <ThreadList />
         </table>
     </div>
   );
