@@ -16,7 +16,6 @@ function Thread() {
 						threadList.push(data[i].title);
 				}
 				setThreads(threadList);
-				console.log(threadList)
 		});
 	} , []);
 
@@ -32,11 +31,13 @@ function Thread() {
     <div className='pt-5'>
 			<table  className='table-fixed'>
 				<thead>
-						<tr>
-								<th className='w-96 text-2xl'>新着スレッド</th>
-						</tr>
+					<tr>
+						<th className='w-96 text-2xl'>新着スレッド</th>
+					</tr>
 				</thead>
-				{threadRecord}
+				<tbody>
+					{threadRecord}
+				</tbody>
 			</table>
     </div>
   );
