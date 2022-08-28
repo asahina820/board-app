@@ -22,7 +22,7 @@ function Thread() {
 
   const threadRecord = threads.map((threadTitle) =>{
 		return(
-			<tr className='bg-white'>
+			<tr key={threadTitle} className='bg-white'>
 				<td className='border text-xl'>{threadTitle}</td>
 			</tr>
 		)
