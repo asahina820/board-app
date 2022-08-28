@@ -6,7 +6,7 @@ function Thread() {
         <table  className='table-fixed'>
             <thead>
                 <tr>
-                    <th className='w-96 text-xl'>新着スレッド</th>
+                    <th className='w-96 text-2xl'>新着スレッド</th>
                 </tr>
             </thead>
             <tr className='bg-white'>
