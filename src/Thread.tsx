@@ -12,8 +12,8 @@ function Thread() {
 		fetch("https://railway-react-bulletin-board.herokuapp.com/threads")
 		.then(res => res.json())
 		.then(data => {
-				for(let i = 0; i <data.length; i++){
-						threadList.push(data[i].title);
+				for(const row of data) {
+					threadList.push(row.title)
 				}
 				setThreads(threadList);
 		});
